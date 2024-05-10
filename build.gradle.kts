@@ -33,7 +33,7 @@ dependencies {
     }
 
     // Spring AI
-    implementation(platform("org.springframework.ai:spring-ai-bom:0.8.1-SNAPSHOT"))
+    implementation(platform("org.springframework.ai:spring-ai-bom:1.0.0-SNAPSHOT"))
     implementation("org.springframework.ai:spring-ai-ollama-spring-boot-starter")
 
     // kotlin

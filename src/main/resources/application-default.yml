@@ -4,7 +4,7 @@ spring:
       base-url: http://localhost:11434
       chat:
         options:
-          model: gemma:7b
+          model: eeve
 
 logging:
   level:
