@@ -43,7 +43,7 @@ body.show-chatbot .chatbot-toggler span:last-child {
     position: fixed;
     right: 35px;
     bottom: 90px;
-    width: 420px;
+    width: 600px;
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
@@ -81,7 +81,7 @@ header h2 {
 }
 .chatbot .chatbox {
     overflow-y: auto;
-    height: 510px;
+    height: 750px;
     padding: 30px 20px 100px;
 }
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
