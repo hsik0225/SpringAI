@@ -17,7 +17,7 @@ const createChatLi = (message, className) => {
 }
 
 const generateResponse = (chatElement) => {
-    const API_URL = `http://localhost:8080/chat?message=${userMessage}`;
+    const API_URL = `http://localhost:8080/chat?message=${userMessage}&type=rag`;
     const messageElement = chatElement.querySelector("p");
 
     fetch(API_URL).then(res => res.json()).then(data => {

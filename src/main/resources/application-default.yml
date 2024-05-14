@@ -5,6 +5,10 @@ spring:
       chat:
         options:
           model: eeve
+    openai:
+      embedding:
+        options:
+          model: text-embedding-3-large
 
 logging:
   level:
